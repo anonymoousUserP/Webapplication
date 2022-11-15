@@ -1,0 +1,6 @@
+* make a proper functioning feed back form.
+* make a about us, contact us.
+* no. of charts generated,  no. of charts downloads, no of user registered,  no. of user active per week,
+
+feedback table, statistic table, 
+feedback form, about us, contact us.
