@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/feedback.css';
+// import '../css/feedback.css';
 
 class Feedback extends Component {
     state = {    }
@@ -33,14 +33,13 @@ class Feedback extends Component {
         // debugger;
 
         // Making a post request to the server for the feedback save.
-        const result = await fetch(this.url + '/api/feedback', {mode: 'cors'}, {
+        const result = await fetch(this.url + '/api/feedback',  {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(data)
         }).then((res) => {
-            console.log(res);
             return res.json()
         })
 
@@ -89,7 +88,7 @@ class Feedback extends Component {
                     </div>
 
                     <div className="buttons">
-                        <a href="javascript:alert('Thanks for submiting your feedback')" id="feedbackSubmit" onClick={this.SubmitClick}>Submit</a>
+                        <a id="feedbackSubmit" onClick={this.SubmitClick}>Submit</a>
                         <a href="You just cancelled your to submit the feedback">Cancel</a>
                     </div>
                 </form>

@@ -13,13 +13,15 @@ class Home extends Component {
     render() { 
         return (
             <React.Fragment>
-                <Carousel/>
-                <Section2/>
-                <Section4/>
-                <Section1/>
-                <Section6/>
-                <Section5/>
-                <Section3/>
+                <div style={{backgroundColor: '#121519'}}>
+                    <Carousel/>
+                    <Section2/>
+                    <Section4/>
+                    <Section1/>
+                    <Section6/>
+                    <Section5/>
+                    <Section3/>
+                </div>
             </React.Fragment>
         );
     }
