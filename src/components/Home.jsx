@@ -6,6 +6,7 @@ import Section4 from './Section4';
 import Section5 from './Section5';
 import Section6 from './Section6';
 import Carousel from './carousel';
+import NavBar from './navBar';
 import '../css/styleCounter.css';
 
 class Home extends Component {
@@ -13,7 +14,7 @@ class Home extends Component {
     render() { 
         return (
             <React.Fragment>
-                <div style={{backgroundColor: '#121519'}}>
+                <div style={{backgroundColor: '#121519'}} className='HomeBody'>
                     <Carousel/>
                     <Section2/>
                     <Section4/>

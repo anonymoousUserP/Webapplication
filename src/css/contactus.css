@@ -1,6 +1,6 @@
-body {
-    /* width: fit-content; */
-    /* background: none; */
+.contactUsBody {
+    width: fit-content;
+    background: none;
 }
 
 .contact .info-box {

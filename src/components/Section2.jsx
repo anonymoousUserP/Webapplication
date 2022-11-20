@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
+import activeImg from "../Assets/verified-user.png"
 // import { ReactDOM } from 'react';
 
 class Section2 extends Component {
@@ -37,33 +38,34 @@ class Section2 extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="sectiontitle mb-0">
+                <div className="sectiontitle mb-0 mt-2">
                     <h2>Statistics</h2>
                     <span className="headerLine"></span>
                 </div>
                 <div id="projectFacts" className="sectionclassName">
                     <div className="fullWidth eight columns">
-                        <div className="projectFactsWrap ">
+                        <div className="projectFactsWrap mt-3">
                             <div className="item wow fadeInUpBig animated animated" data-number="12" style={{visibility: 'visible'}}>
-                                <i className="fa fa-briefcase"></i>
+                                
+                                <i className="bi bi-file-earmark-bar-graph-fill"></i>
                                 <p id="number1" className="number">12</p>
                                 {/* <span></span> */}
                                 <p>Charts Generated</p>
                             </div>
                             <div className="item wow fadeInUpBig animated animated" data-number="55" style={{visibility: 'visible'}}>
-                                <i className="fa fa-smile-o"></i>
+                            <i className="bi bi-file-earmark-arrow-down-fill"></i>
                                 <p id="number2" className="number">55</p>
                                 {/* <span></span> */}
                                 <p>Charts downloads</p>
                             </div>
                             <div className="item wow fadeInUpBig animated animated" data-number="359" style={{visibility: 'visible'}}>
-                                <i className="fa fa-coffee"></i>
+                                <i className="bi bi-person-check"></i>
                                 <p id="number3" className="number">359</p>
                                 {/* <span></span> */}
                                 <p>User Registered</p>
                             </div>
                             <div className="item wow fadeInUpBig animated animated" data-number="246" style={{visibility: 'visible'}}>
-                                <i className="fa fa-camera"></i>
+                                <img src={activeImg} alt="" style={{height: '45px', alignItems: 'center', margin: 'auto'}}/>
                                 <p id="number4" className="number">246</p>
                                 {/* <span></span> */}
                                 <p>user active per week</p>

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
-
-* {
+/* * */
+.everything { 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,14 +25,16 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+  line-height: 16px;
 }
 
 .feedbackheading {
   font-size: 18px;
+  font-weight: 600;
 }
 
 .para {
-  font-weight: 600;
+  
 }
 
 .feedback-level {
@@ -91,12 +93,12 @@
   font-weight: 600;
 }
 
-.buttons {
+.feedbackbuttons {
   display: flex;
   gap: 10px;
   justify-content: end;
 }
-.buttons a {
+.feedbacks a {
   background: white;
   color: #4b537c;
   width: 80px;
@@ -104,10 +106,10 @@
   text-align: center;
   border-radius: 4px;
 }
-.buttons a:hover {
+.feedbacks a:hover {
   opacity: 0.9;
 }
-.buttons a:nth-child(1) {
+.feedbacks a:nth-child(1) {
   background: #fe71a4;
   color: #f8faff;
 }

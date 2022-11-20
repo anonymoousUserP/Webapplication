@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import '../css/feedback.css';
+import '../css/feedback.css';
 
 class Feedback extends Component {
     state = {    }
@@ -52,7 +52,7 @@ class Feedback extends Component {
     render() {
         return (
             <React.Fragment>
-                <form className="feedbackcontainer">
+                <div className="feedbackcontainer">
                     <h1 className="feedbackheading">Give feedback</h1>
                     <p className="feedbackpara">How would you rate our service?</p>
                     <div className="feedback-level">
@@ -87,11 +87,11 @@ class Feedback extends Component {
                         </div>
                     </div>
 
-                    <div className="buttons">
+                    <div className="feedbackbuttons">
                         <a id="feedbackSubmit" onClick={this.SubmitClick}>Submit</a>
                         <a href="You just cancelled your to submit the feedback">Cancel</a>
                     </div>
-                </form>
+                </div>
             </React.Fragment>
         );
     }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import '../css/forgotPassword.css'
+import '../css/forgotPassword.css';
 
 class ForgotPassword extends Component {
     state = {}

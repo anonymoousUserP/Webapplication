@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import '../css/contactus.css'
 
 class Contact extends Component {
-  state = {  } 
-  
-  render() { 
-    return (
-      <React.Fragment>
-        <section className="contact mt-5 pt-3">
+    state = {}
+
+    render() {
+        return (
+            <React.Fragment>
+                <div className='contactUsBody'>
+                <section className="contact mt-5 pt-3">
             <div className="row gy-4 " style={{ width: '100%' }}>
                 <div className="col-lg-12 mx-5">
                     <div className="row gy-4 mx-5">
@@ -25,12 +26,8 @@ class Contact extends Component {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div
-                                className="info-box"
-                            >
-                                <i
-                                    className="bi bi-telephone"
-                                ></i>
+                            <div className="info-box">
+                                <i className="bi bi-telephone"></i>
                                 <h3>Call Us</h3>
                                 <p>
                                     +91 7004901819
@@ -53,12 +50,8 @@ class Contact extends Component {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div
-                                className="info-box"
-                            >
-                                <i
-                                    className="bi bi-clock"
-                                ></i>
+                            <div className="info-box">
+                                <i className="bi bi-clock"></i>
                                 <h3>Open Hours</h3>
                                 <p>
                                     Monday - Friday
@@ -124,10 +117,10 @@ class Contact extends Component {
         </div> */}
             </div>
         </section>
-
-      </React.Fragment>
-    );
-  }
+                </div>
+            </React.Fragment>
+        );
+    }
 }
- 
+
 export default Contact;
