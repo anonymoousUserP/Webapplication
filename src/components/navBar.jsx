@@ -21,7 +21,7 @@ class navBar extends Component {
                                     <Link className="nav-link active" aria-current="page" to='/contactus'>Contact Us</Link>
                                 </li>
                                 <li className="nav-item px-3">
-                                    <a className="nav-link" href="#">Link</a>
+                                    <a className="nav-link" href="#">About Us</a>
                                 </li>
                                 <li className="nav-item px-3">
                                     <a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Disabled</a>

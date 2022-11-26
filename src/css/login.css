@@ -116,7 +116,7 @@ html:focus-within {
 
 /* Set core body defaults */
 .loginBody {
-  min-height:  100vh;
+  min-height:  92.4vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: var(--ff-primary);
@@ -155,7 +155,6 @@ select {
   }
 }
 .bodyContainer {
-	height: 100vh;
 	display: flex;
 	-ms-flex-pack: center;
 	justify-content: center;

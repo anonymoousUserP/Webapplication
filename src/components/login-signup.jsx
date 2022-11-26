@@ -106,13 +106,13 @@ class LoginSignup extends Component {
                                     <div className="header">Sign Up</div>
                                     <div className="social__media__container">
                                         <a href="https://codepen.io/Rittenhouse" target="_blank" className="social codepen">
-                                            <i class="fa-brands fa-facebook"></i>
+                                            <i className="fa-brands fa-facebook"></i>
                                         </a>
                                         <a href="#" className="social google">
                                             <i className="fa-brands fa-google"></i>
                                         </a>
                                         <a href="https://www.instagram.com/zaur.suleymnv/" target="_blank" className="social instagram">
-                                            <i class="fa-brands fa-linkedin"></i>
+                                            <i className="fa-brands fa-linkedin"></i>
                                         </a>
                                     </div>
                                     <span className="under__social">
@@ -144,13 +144,13 @@ class LoginSignup extends Component {
                                     <div className="header">Sign In</div>
                                     <div className="social__media__container">
                                         <a href="https://codepen.io/Rittenhouse" target="_blank" className="social codepen">
-                                            <i class="fa-brands fa-facebook"></i>
+                                            <i className="fa-brands fa-facebook"></i>
                                         </a>
                                         <a href="#" className="social google">
                                             <i className="fa-brands fa-google"></i>
                                         </a>
                                         <a href="https://www.instagram.com/zaur.suleymnv/" target="_blank" className="social instagram">
-                                            <i class="fa-brands fa-linkedin"></i>
+                                            <i className="fa-brands fa-linkedin"></i>
                                         </a>
                                     </div>
                                     <span className="under__social">
